@@ -1,4 +1,17 @@
+.btn {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 200px;
+    gap: 3rem;
+}
+
+
 button {
-    text-decoration: #fff;
+    color: #fff;
     background-color: green;
+    padding: 30px 30px;
+    border-radius: 15px;
 }
