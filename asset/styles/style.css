@@ -1,4 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+  height: 80vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 button {
-    text-decoration: #fff;
-    background-color: red;
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  min-width: 300px;
+}
+
+button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+label {
+  font-weight: 500;
+  color: brown;
+  font-size: 16px;
+}
+
+p {
+  border: 1px solid rebeccapurple;
+  padding: 20px;
+  text-align: center;
+  min-width: 300px;
 }
