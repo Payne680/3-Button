@@ -6,7 +6,7 @@ body {
   text-align: center;
   align-items: center;
   height: 80vh;
-  background-color: #592e2e;
+  background-color: #756969;
 }
 
 * {
@@ -15,13 +15,26 @@ body {
 
 button {
   background-color: #222;
-  color: white;
+  color: #fff;
   border: none;
   cursor: pointer;
   text-align: center;
   padding: 20px;
   min-width: 300px;
   border-radius: 80px;
+}
+
+.btn1 {
+  background-color: #c35555;
+  color: #000;
+}
+.btn2 {
+  background-color: #140202;
+  color: #fff;
+}
+.btn3 {
+  background-color: #a6c355;
+  color: #fff;
 }
 
 button:disabled {
